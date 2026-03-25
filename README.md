@@ -99,7 +99,7 @@ def broadcast(message: str, sender: socket.socket):
                 client.send(message.encode())
 ```
 
-- Cara Menjalankan
+### Cara Menjalankan
 
 ```bash
 # Jalankan salah satu server
@@ -112,7 +112,7 @@ python3 server-thread.py
 python3 client.py
 ```
 
-Perintah yang tersedia di client:
+### Perintah yang tersedia di client:
 
 ```
 /list                  → Tampilkan daftar file di server
@@ -122,17 +122,17 @@ Perintah yang tersedia di client:
 <teks biasa>           → Kirim pesan broadcast ke semua client
 ```
 ## Screenshot Hasil
-- server.py
+### server.py
 <img width="1440" height="900" alt="Screenshot 2026-03-25 at 23 33 13" src="https://github.com/user-attachments/assets/8da1d433-314c-44e6-8338-85eef4cddb40" />
 
-- sync.py
+### sync.py
 <img width="1440" height="900" alt="Screenshot 2026-03-25 at 23 36 10" src="https://github.com/user-attachments/assets/8556608d-fcf5-451f-adcb-edbd80413c74" />
 <img width="1440" height="900" alt="Screenshot 2026-03-25 at 23 38 21" src="https://github.com/user-attachments/assets/e3739899-a7b6-4a38-8363-7baf0ada675d" />
 <img width="1440" height="900" alt="Screenshot 2026-03-25 at 23 38 39" src="https://github.com/user-attachments/assets/78a329fb-5282-4084-8d38-57f16721344d" />
 
-- select.py
+### select.py
 <img width="1440" height="900" alt="Screenshot 2026-03-25 at 23 40 47" src="https://github.com/user-attachments/assets/7fbeb487-14d8-4ed3-a1b1-408d39807591" />
 
-- poll.py
+### poll.py
 <img width="1440" height="900" alt="Screenshot 2026-03-25 at 23 17 29" src="https://github.com/user-attachments/assets/014711dd-44ef-495b-ace0-4eab9a5503e3" />
  
